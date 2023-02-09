@@ -30,4 +30,8 @@ Other users: all the permissions<br>
 The file hello will be in the working directory You are not allowed to use commas for this script
 <h4>Task 9: 9-John_Doe</h4>
 Write a script that sets the mode of the file hello to this:
-
+<h4>Task 10: 10-mirror_permissions</h4>
+Write a script that sets the mode of the file hello the same as olleh’s mode.<br>
+The file hello will be in the working directory<br>
+The file olleh will be in the working directory<br>
+ 
