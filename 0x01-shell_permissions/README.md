@@ -41,3 +41,6 @@ Create a script that creates a directory called my_dir with permissions 751 in t
 <h4>Task 13: 13-change_group</h4>
 Write a script that changes the group owner to school for the file hello <br>
 The file hello will be in the working directory
+<h4>Task 14: 100-change_owner_and_group</h4>
+ Write a script that changes the owner to vincent and the group owner to staff for all the files and directories in the working directory.
+ 
