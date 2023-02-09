@@ -43,4 +43,8 @@ Write a script that changes the group owner to school for the file hello <br>
 The file hello will be in the working directory
 <h4>Task 14: 100-change_owner_and_group</h4>
  Write a script that changes the owner to vincent and the group owner to staff for all the files and directories in the working directory.
+<h4>Task 15: 101-symbolic_link_permissions</h4>
+ Write a script that changes the owner and the group owner of _hello to vincent and staff respectively.<br>
+The file _hello is in the working directory<br>
+The file _hello is a symbolic link
  
