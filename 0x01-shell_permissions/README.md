@@ -23,10 +23,10 @@ Write a script that adds execute permission to the owner of the file hello.
    The file hello will be in the working directory
 
 #Task 6: 6-multiple_permissions
-Write a script that adds execute permission to the owner and the group owner, and read permission to other users, to the file hello.
+Write a script that adds execute permission to the owner and the group owner, and read permission to other users, to the file hello.<br>
   The file hello will be in the working directory
 
 <h4>Task 7: 7-everybody</h4> <br>
-Write a script that adds execution permission to the owner, the group owner and the other users, to the file hello
-  The file hello will be in the working directory
+Write a script that adds execution permission to the owner, the group owner and the other users, to the file hello<br>
+  The file hello will be in the working directory<br>
   You are not allowed to use commas for this script
