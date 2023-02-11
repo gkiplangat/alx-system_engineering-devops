@@ -70,7 +70,7 @@ This file contains the tasks of this directory, the description and the link to 
 ### Task 15: 15. Let’s move
 * Create a script that moves all files beginning with an uppercase letter to the directory /tmp/u.
 * You can assume that the directory /tmp/u will exist when we will run your script</br>
-<a href="https://github.com/gkiplangat/alx-system_engineering-devops/blob/master/0x00-shell_basics/10-back">10-back</a>
+<a href="https://github.com/gkiplangat/alx-system_engineering-devops/blob/master/0x00-shell_basics/100-lets_move">100-lets_move</a>
 
 ### Task 16: 16. Clean Emacs
 * Create a script that deletes all files in the current working directory that end with the character ~.</br>
