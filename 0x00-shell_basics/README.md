@@ -74,7 +74,7 @@ This file contains the tasks of this directory, the description and the link to 
 
 ### Task 16: 16. Clean Emacs
 * Create a script that deletes all files in the current working directory that end with the character ~.</br>
-<a href="https://github.com/gkiplangat/alx-system_engineering-devops/blob/master/0x00-shell_basics/10-back">10-back</a>
+<a href="https://github.com/gkiplangat/alx-system_engineering-devops/blob/master/0x00-shell_basics/101-clean_emacs">101-clean_emacs</a>
 
 ### Task 17: 17. Tree
 Create a script that creates the directories welcome/, welcome/to/ and welcome/to/school in the current directory.</br>
