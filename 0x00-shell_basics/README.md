@@ -49,13 +49,24 @@ This file contains the tasks of this directory, the description and the link to 
 ### Task 10: 10. Back to the future
 * Write a script that changes the working directory to the previous one</br>
 <a href="https://github.com/gkiplangat/alx-system_engineering-devops/blob/master/0x00-shell_basics/10-back">10-back</a>
+
 ### Task 11: 11. Lists
+* Write a script that lists all files (even ones with names beginning with a period character, which are normally hidden) in the current directory and the parent of the working directory and the /boot directory (in this order), in long format.</br>
+<a href="https://github.com/gkiplangat/alx-system_engineering-devops/blob/master/0x00-shell_basics/11-lists">11-lists</a>
+
 ### Task 12: 12. File type
+<a href="https://github.com/gkiplangat/alx-system_engineering-devops/blob/master/0x00-shell_basics/10-back">10-back</a>
+
 ### Task 13: 13. We are symbols, and inhabit symbols
+<a href="https://github.com/gkiplangat/alx-system_engineering-devops/blob/master/0x00-shell_basics/10-back">10-back</a>
 ### Task 14: 14. Copy HTML files
+<a href="https://github.com/gkiplangat/alx-system_engineering-devops/blob/master/0x00-shell_basics/10-back">10-back</a>
 ### Task 15: 15. Let’s move
+<a href="https://github.com/gkiplangat/alx-system_engineering-devops/blob/master/0x00-shell_basics/10-back">10-back</a>
 ### Task 16: 16. Clean Emacs
+<a href="https://github.com/gkiplangat/alx-system_engineering-devops/blob/master/0x00-shell_basics/10-back">10-back</a>
 ### Task 17: 17. Tree
+<a href="https://github.com/gkiplangat/alx-system_engineering-devops/blob/master/0x00-shell_basics/10-back">10-back</a>
 ### Task 18: 18. Life is a series of commas, not periods
 * Write a command that lists all the files and directories of the current directory, separated by commas (,).
   * Directory names should end with a slash (/)
