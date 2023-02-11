@@ -1,7 +1,7 @@
 # alx-system_engineering-devops
 This Repository contains two directories which include;
-<a href="https://github.com/gkiplangat/alx-system_engineering-devops/tree/master/0x00-shell_basics">0x00-Shell_basics</a>
-<a href="https://github.com/gkiplangat/alx-system_engineering-devops/tree/master/0x00-shell_basics">0x00-Shell_permissions</a>
+* <a href="https://github.com/gkiplangat/alx-system_engineering-devops/tree/master/0x00-shell_basics">0x00-Shell_basics</a>
+* <a href="https://github.com/gkiplangat/alx-system_engineering-devops/tree/master/0x00-shell_basics">0x00-Shell_permissions</a>
 
 ### 0x00-Shell_basics
 The following files are the files inside the shell basic directory, what each and every file contains is decribe in the 
