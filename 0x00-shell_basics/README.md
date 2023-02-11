@@ -15,6 +15,9 @@ This file contains the tasks of this directory, the description and the link to 
   <a href="https://github.com/gkiplangat/alx-system_engineering-devops/blob/master/0x00-shell_basics/2-bring_me_home">2-bring_me_home</a>
  
 ### Task 3: 3. The long format
+* Display current directory contents in a long format</br>
+<a href="https://github.com/gkiplangat/alx-system_engineering-devops/blob/master/0x00-shell_basics/3-listfiles">3-listfiles</a>
+
 ### Task 4: 4. Hidden files
 ### Task 5: 5. I love numbers
 ### Task 6: 6. Welcome
