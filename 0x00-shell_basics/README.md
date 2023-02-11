@@ -38,6 +38,9 @@ This file contains the tasks of this directory, the description and the link to 
 <a href="https://github.com/gkiplangat/alx-system_engineering-devops/blob/master/0x00-shell_basics/7-movethatfile">7-movethatfile</a>
 
 ### Task 8: 8. Bye bye Betty
+* Delete the file betty.
+  * The file betty is in /tmp/my_first_directory </br>
+  <a href="https://github.com/gkiplangat/alx-system_engineering-devops/blob/master/0x00-shell_basics/8-firstdelete">8-firstdelete</a>
 ### Task 9: 9. Bye bye My first directory
 ### Task 10: 10. Back to the future
 ### Task 11: 11. Lists
