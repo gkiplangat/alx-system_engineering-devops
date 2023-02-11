@@ -1,5 +1,5 @@
 # alx-system_engineering-devops
-* Author: <a href="https://github.com/gkiplangat">Gideon Kiplangat</a>
+Author: <a href="https://github.com/gkiplangat">Gideon Kiplangat</a> <br>
 This Repository contains two directories which include;
 * <a href="https://github.com/gkiplangat/alx-system_engineering-devops/tree/master/0x00-shell_basics">0x00-Shell_basics</a>
 * <a href="https://github.com/gkiplangat/alx-system_engineering-devops/tree/master/0x00-shell_basics">0x00-Shell_permissions</a>
