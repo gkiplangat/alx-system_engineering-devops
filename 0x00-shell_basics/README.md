@@ -34,6 +34,9 @@ This file contains the tasks of this directory, the description and the link to 
 <a href="https://github.com/gkiplangat/alx-system_engineering-devops/blob/master/0x00-shell_basics/6-firstdirectory">6-firstdirectory</a>
 
 ### Task 7: 7. Betty in my first directory
+* Move the file betty from /tmp/ to /tmp/my_first_directory.</br>
+<a href="https://github.com/gkiplangat/alx-system_engineering-devops/blob/master/0x00-shell_basics/7-movethatfile">7-movethatfile</a>
+
 ### Task 8: 8. Bye bye Betty
 ### Task 9: 9. Bye bye My first directory
 ### Task 10: 10. Back to the future
