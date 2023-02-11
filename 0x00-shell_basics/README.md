@@ -30,6 +30,9 @@ This file contains the tasks of this directory, the description and the link to 
   <a href="https://github.com/gkiplangat/alx-system_engineering-devops/blob/master/0x00-shell_basics/5-listfilesdigitonly">5-listfilesdigitonly</a>
   
 ### Task 6: 6. Welcome
+* Create a script that creates a directory named my_first_directory in the /tmp/ directory.</br>
+<a href="https://github.com/gkiplangat/alx-system_engineering-devops/blob/master/0x00-shell_basics/6-firstdirectory">6-firstdirectory</a>
+
 ### Task 7: 7. Betty in my first directory
 ### Task 8: 8. Bye bye Betty
 ### Task 9: 9. Bye bye My first directory
