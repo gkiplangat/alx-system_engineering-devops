@@ -1,4 +1,5 @@
-## Shell permissions
+## 0x01-shell_permissions
+This file contains the tasks of this directory, the description and the link to the solution of these tasks.
 
 #### Task 0: 0-iam_betty</h4>
 Create a script that switches the current user to the user betty.
@@ -21,7 +22,7 @@ Create a script that switches the current user to the user betty.
 #### Task 4: 4-empty
 * Write a script that creates an empty file called hello</br>
  <a href="https://github.com/gkiplangat/alx-system_engineering-devops/blob/master/0x01-shell_permissions/4-empty">4-empty</a>
- 
+
 #### Task 5: 5-execute
 * Write a script that adds execute permission to the owner of the file hello.
    * The file hello will be in the working directory </br>

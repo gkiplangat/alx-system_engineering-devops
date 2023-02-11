@@ -2,7 +2,7 @@
 Author: <a href="https://github.com/gkiplangat">Gideon Kiplangat</a> <br>
 This Repository contains two directories which include;
 * <a href="https://github.com/gkiplangat/alx-system_engineering-devops/tree/master/0x00-shell_basics">0x00-Shell_basics</a>
-* <a href="https://github.com/gkiplangat/alx-system_engineering-devops/tree/master/0x01-shell_permissions">0x00-Shell_permissions</a>
+* <a href="https://github.com/gkiplangat/alx-system_engineering-devops/tree/master/0x01-shell_permissions">0x01-Shell_permissions</a>
 
 ### 0x00-Shell_basics
 The following files are the files inside the shell basic directory, what each and every file contains is decribe in the 
@@ -29,7 +29,7 @@ The following files are the files inside the shell basic directory, what each an
 * 9-firstdirdeletion
 * school.mgc
 * README.md
-### 0x00-Shell_permissions
+### 0x01-Shell_permissions
 The following files are the files inside the shell permissions directory, what each and every file contains is decribed in the 
 <a href="https://github.com/gkiplangat/alx-system_engineering-devops/blob/master/0x01-shell_permissions/README.md">README</a> file inside the 
 0x00-Shell_permission directory.
