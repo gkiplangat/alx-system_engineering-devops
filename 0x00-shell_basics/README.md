@@ -47,6 +47,8 @@ This file contains the tasks of this directory, the description and the link to 
 <a href="https://github.com/gkiplangat/alx-system_engineering-devops/blob/master/0x00-shell_basics/9-firstdirdeletion">9-firstdirdeletion</a>
 
 ### Task 10: 10. Back to the future
+* Write a script that changes the working directory to the previous one</br>
+<a href="https://github.com/gkiplangat/alx-system_engineering-devops/blob/master/0x00-shell_basics/10-back">10-back</a>
 ### Task 11: 11. Lists
 ### Task 12: 12. File type
 ### Task 13: 13. We are symbols, and inhabit symbols
