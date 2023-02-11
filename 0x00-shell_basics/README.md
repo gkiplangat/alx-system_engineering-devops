@@ -21,7 +21,14 @@ This file contains the tasks of this directory, the description and the link to 
 ### Task 4: 4. Hidden files
 * Display current directory contents, including hidden files (starting with .). Use the long format.</br>
 <a href="https://github.com/gkiplangat/alx-system_engineering-devops/blob/master/0x00-shell_basics/4-listmorefiles">4-listmorefiles</a>
+
 ### Task 5: 5. I love numbers
+* Display current directory contents.
+  * Long format
+  * with user and group IDs displayed numerically
+  * And hidden files (starting with .)</br>
+  <a href="https://github.com/gkiplangat/alx-system_engineering-devops/blob/master/0x00-shell_basics/5-listfilesdigitonly">5-listfilesdigitonly</a>
+  
 ### Task 6: 6. Welcome
 ### Task 7: 7. Betty in my first directory
 ### Task 8: 8. Bye bye Betty
