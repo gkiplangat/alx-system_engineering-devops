@@ -41,7 +41,11 @@ This file contains the tasks of this directory, the description and the link to 
 * Delete the file betty.
   * The file betty is in /tmp/my_first_directory </br>
   <a href="https://github.com/gkiplangat/alx-system_engineering-devops/blob/master/0x00-shell_basics/8-firstdelete">8-firstdelete</a>
+
 ### Task 9: 9. Bye bye My first directory
+* Delete the directory my_first_directory that is in the /tmp directory.</br>
+<a href="https://github.com/gkiplangat/alx-system_engineering-devops/blob/master/0x00-shell_basics/9-firstdirdeletion">9-firstdirdeletion</a>
+
 ### Task 10: 10. Back to the future
 ### Task 11: 11. Lists
 ### Task 12: 12. File type
