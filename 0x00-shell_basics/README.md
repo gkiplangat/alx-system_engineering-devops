@@ -20,6 +20,15 @@ This file contains the tasks of this directory, the description and the link to 
 ### Task 16: 16. Clean Emacs
 ### Task 17: 17. Tree
 ### Task 18: 18. Life is a series of commas, not periods
+* Write a command that lists all the files and directories of the current directory, separated by commas (,).
+  * Directory names should end with a slash (/)
+  * Files and directories starting with a dot (.) should be listed
+  * The listing should be alpha ordered, except for the directories . and .. which should be listed at the very beginning
+  * Only digits and letters are used to sort; Digits should come first
+  * You can assume that all the files we will test with will have at least one letter or one digit
+  * The listing should end with a new line</br>
+<a href="https://github.com/gkiplangat/alx-system_engineering-devops/blob/master/0x00-shell_basics/103-commas">103-commas</a>
+
 ### Task 19: 19. File type: School
 * Create a magic file school.mgc that can be used with the command file to detect School data files. School data files always contain the string SCHOOL at offset 0</br>
 <a href="https://github.com/gkiplangat/alx-system_engineering-devops/blob/master/0x00-shell_basics/school.mgc">school.mgc</a>
