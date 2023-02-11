@@ -78,7 +78,7 @@ This file contains the tasks of this directory, the description and the link to 
 
 ### Task 17: 17. Tree
 Create a script that creates the directories welcome/, welcome/to/ and welcome/to/school in the current directory.</br>
-<a href="https://github.com/gkiplangat/alx-system_engineering-devops/blob/master/0x00-shell_basics/10-back">10-back</a>
+<a href="https://github.com/gkiplangat/alx-system_engineering-devops/blob/master/0x00-shell_basics/102-tree">102-tree</a>
 
 ### Task 18: 18. Life is a series of commas, not periods
 * Write a command that lists all the files and directories of the current directory, separated by commas (,).
