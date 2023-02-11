@@ -60,7 +60,7 @@ This file contains the tasks of this directory, the description and the link to 
 
 ### Task 13: 13. We are symbols, and inhabit symbols
 * Create a symbolic link to /bin/ls, named __ls__. The symbolic link should be created in the current working directory.</br>
-<a href="https://github.com/gkiplangat/alx-system_engineering-devops/blob/master/0x00-shell_basics/10-back">10-back</a>
+<a href="https://github.com/gkiplangat/alx-system_engineering-devops/blob/master/0x00-shell_basics/13-symbolic_link">13-symbolic_link</a>
 
 ### Task 14: 14. Copy HTML files
 * Create a script that copies all the HTML files from the current working directory to the parent of the working directory, but only copy files that did not exist in the parent of the working directory or were newer than the versions in the parent of the working directory.
