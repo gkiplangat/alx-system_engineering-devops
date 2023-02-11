@@ -65,7 +65,7 @@ This file contains the tasks of this directory, the description and the link to 
 ### Task 14: 14. Copy HTML files
 * Create a script that copies all the HTML files from the current working directory to the parent of the working directory, but only copy files that did not exist in the parent of the working directory or were newer than the versions in the parent of the working directory.
 * You can consider that all HTML files have the extension .html</br>
-<a href="https://github.com/gkiplangat/alx-system_engineering-devops/blob/master/0x00-shell_basics/10-back">10-back</a>
+<a href="https://github.com/gkiplangat/alx-system_engineering-devops/blob/master/0x00-shell_basics/14-copy_html">14-copy_html</a>
 
 ### Task 15: 15. Let’s move
 * Create a script that moves all files beginning with an uppercase letter to the directory /tmp/u.
