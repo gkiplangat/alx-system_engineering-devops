@@ -1,4 +1,4 @@
-# alx-system_engineering-devops
+## alx-system_engineering-devops
 Author: <a href="https://github.com/gkiplangat">Gideon Kiplangat</a> <br>
 This Repository contains two directories which include;
 * <a href="https://github.com/gkiplangat/alx-system_engineering-devops/tree/master/0x00-shell_basics">0x00-Shell_basics</a>
@@ -52,4 +52,4 @@ The following files are the files inside the shell permissions directory, what e
 * 8-James_Bond
 * 9-John_Doe
 * README.md
-# The End
+## The End
