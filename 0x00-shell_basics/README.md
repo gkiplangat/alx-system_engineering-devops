@@ -55,7 +55,8 @@ This file contains the tasks of this directory, the description and the link to 
 <a href="https://github.com/gkiplangat/alx-system_engineering-devops/blob/master/0x00-shell_basics/11-lists">11-lists</a>
 
 ### Task 12: 12. File type
-<a href="https://github.com/gkiplangat/alx-system_engineering-devops/blob/master/0x00-shell_basics/10-back">10-back</a>
+* Write a script that prints the type of the file named iamafile. The file iamafile will be in the /tmp directory when we will run your script.</br>
+<a href="https://github.com/gkiplangat/alx-system_engineering-devops/blob/master/0x00-shell_basics/12-file_type">12-file_type</a>
 
 ### Task 13: 13. We are symbols, and inhabit symbols
 <a href="https://github.com/gkiplangat/alx-system_engineering-devops/blob/master/0x00-shell_basics/10-back">10-back</a>
