@@ -47,7 +47,7 @@ Create a script that switches the current user to the user betty.
   * The file hello is a symbolic link<br>
 #### Task 16: 102-if_only
 * Write a script that changes the owner of the file hello to betty only if it is owned by the user guillaume.<br>
-  *The file hello will be in the working directory 
+  * The file hello will be in the working directory 
 #### Task 17: 103-Star_Wars
 * Write a script that will play the StarWars IV episode in the terminal.
 ## The End
