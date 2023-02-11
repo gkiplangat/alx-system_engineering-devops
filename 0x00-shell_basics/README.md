@@ -2,6 +2,9 @@
 This file contains the tasks of this directory, the description and the link to the solution of these tasks.
 
 ### Task 0: 0. Where am I?
+* Write a script that prints the absolute path name of the current working directory.</br>
+<a href="https://github.com/gkiplangat/alx-system_engineering-devops/blob/master/0x00-shell_basics/0-current_working_directory">0-current_working_directory</a>
+
 ### Task 1: 1. What’s in there?
 ### Task 2: 2. There is no place like home
 ### Task 3: 3. The long format
