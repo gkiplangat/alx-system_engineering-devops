@@ -6,7 +6,8 @@ Create a script that switches the current user to the user betty.
 * You can assume that the user betty will exist when we will run your script </br>
 <a href="https://github.com/gkiplangat/alx-system_engineering-devops/blob/master/0x01-shell_permissions/0-iam_betty">0-iam_betty</a>
 #### Task 1:1-who_am_i
-* Write a script that prints the effective username of the current user.
+* Write a script that prints the effective username of the current user.</br>
+ <a href="https://github.com/gkiplangat/alx-system_engineering-devops/blob/master/0x01-shell_permissions/1-who_am_i">1-who_am_i</a>
 #### Task 2: 2-groups
 * Write a script that prints all the groups the current user is part of.
 ### Task 3: 3-new_owner
