@@ -3,7 +3,7 @@
 #### Task 0: 0-iam_betty</h4>
 Create a script that switches the current user to the user betty.
 * You should use exactly 8 characters for your command (+1 character for the new line)
-* You can assume that the user betty will exist when we will run your script
+* You can assume that the user betty will exist when we will run your script </br>
 <a href="https://github.com/gkiplangat/alx-system_engineering-devops/blob/master/0x01-shell_permissions/0-iam_betty">0-iam_betty</a>
 #### Task 1:1-who_am_i
 * Write a script that prints the effective username of the current user.
