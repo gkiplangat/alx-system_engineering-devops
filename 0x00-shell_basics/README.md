@@ -8,7 +8,12 @@ This file contains the tasks of this directory, the description and the link to 
 ### Task 1: 1. What’s in there?
 * Display the contents list of your current directory.</br>
 <a href="https://github.com/gkiplangat/alx-system_engineering-devops/blob/master/0x00-shell_basics/1-listit">1-listit</a>
+
 ### Task 2: 2. There is no place like home
+* Write a script that changes the working directory to the user’s home directory.
+  * You are not allowed to use any shell variables</br>
+  <a href=" https://github.com/gkiplangat/alx-system_engineering-devops/blob/master/0x00-shell_basics/2-bring_me_home">2-bring_me_home</a>
+ 
 ### Task 3: 3. The long format
 ### Task 4: 4. Hidden files
 ### Task 5: 5. I love numbers
