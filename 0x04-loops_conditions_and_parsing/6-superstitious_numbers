@@ -3,7 +3,7 @@
 ntimes=0
 while [ $ntimes -lt 20 ]
 do
-    n=$(( ntimes + 1 ))
+    ntimes=$(( ntimes + 1 ))
     echo $ntimes
 
     case $ntimes in
