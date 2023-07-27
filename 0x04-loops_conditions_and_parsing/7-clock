@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# This script displays numbers from 1 to 59.
+hrs=0
+
+while [ $hrs -le 12 ]
+do
+    min=1
+    echo "Hour: ${hrs}"
+
+    while [ $min -lt 60 ]
+    do
+        echo $min
+        min=$(( min + 1 ))
+    done
+
+    hrs=$(( hrs + 1 ))
+done
