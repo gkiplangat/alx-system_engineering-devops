@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# This script displays "Best School" 10 times using a for loop
+message = "Best School"
+noOfTimes = 10
+
+for ((i = 1; i <= noOfTimes; i++));
+do
+    echo $message
+done
