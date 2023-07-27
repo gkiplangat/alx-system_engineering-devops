@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# This script executes the FizzBuzz logic for numbers from 1 to 100.
+
+for num in {1..100}; do
+    mod3=$(( num % 3 ))
+    mod5=$(( num % 5 ))
+
+    if [[ $mod3 == 0 && $mod5 == 0 ]]; then
+        echo "FizzBuzz"
+    elif [ "$mod3" == 0 ]; then
+        echo "Fizz"
+    elif [ "$mod5" == 0 ]; then
+        echo "Buzz"
+    else
+        echo "$num"
+    fi
+done
