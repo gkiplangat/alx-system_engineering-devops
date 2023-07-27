@@ -1,0 +1,27 @@
+#!/usr/bin/env bash
+# This script displays information about a file in the current directory.
+fname="school"
+
+if [ ! -e "$fname" ]; then
+    echo "$fname file does not exist"
+else
+    if [ -f "$fname" ]; then
+        if [ -s "$fname" ]; then
+            echo "$fname file exists"
+            echo "$fname file is not empty"
+            echo "$fname is a regular file"
+        else
+            echo "$fname file exists"
+            echo "$fname file is empty"
+            echo "$fname is a regular file"
+        fi
+    else
+        if [ -s "$fname" ]; then
+            echo "$fname file exists"
+            echo "$fname file is not empty"
+        else
+            echo "$fname file exists"
+            echo "$fname file is empty"
+        fi
+    fi
+fi
