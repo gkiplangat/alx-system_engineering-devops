@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# iteration.
+while read -r ln
+do
+    usern=$(echo "$ln" | cut -d ':' -f1)
+    userId=$(echo "$ln" | cut -d ':' -f3)
+    hm_path=$(echo "$ln" | cut -d ':' -f6)
+    echo "$usern:$userId:$hm_path"
+done < /etc/passwd
