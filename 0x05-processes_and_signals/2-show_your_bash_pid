@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Displays lines containing the bash word from a list of currently running proces
+ps -auxf | grep bash
