@@ -1,0 +1,42 @@
+#!/usr/bin/env bash
+# This is a bash init script that manages a daemon.
+
+argv1=$1
+tmpfile="/var/run/my_process.pid"
+
+start_my_process() {
+    ./manage_my_process &
+    echo "$!" > "$tmpfile"
+}
+
+stop_my_process() {
+    #kill "$(cat "$tmpfile")"
+    sudo pkill -f "./manage_my_process"
+    rm "$tmpfile"
+}
+
+case "$argv1" in
+    start)
+        echo "manage_my_process starting..."
+        start_my_process
+        echo "manage_my_process started"
+        ;;
+    stop)
+        echo "manage_my_process stopping..."
+        stop_my_process
+        echo "manage_my_process stopped"
+        ;;
+    restart)
+        echo "manage_my_process restarting..."
+        stop_my_process
+        start_my_process
+        echo "manage_my_process restarted"
+        ;;
+    *)
+        echo "Usage: $0 {start|stop|restart}"
+        exit 1
+        ;;
+esac
+
+exit 0
+
