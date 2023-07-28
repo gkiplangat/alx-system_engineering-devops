@@ -1,9 +1,7 @@
 #!/usr/bin/env bash
-# This script appends a string to a file infinitely with a 2-second delay
-
+# This script appends a string to a file
 while true; do
-   	# echo "I am alive!" >> /tmp/my_process
-	 sudo bash -c 'echo "I am alive!" >> /tmp/my_process'
- 
+    sudo bash -c 'echo "I am alive!" >> /tmp/my_process'
+    # echo "I am alive!" >> /tmp/my_process
     sleep 2
 done

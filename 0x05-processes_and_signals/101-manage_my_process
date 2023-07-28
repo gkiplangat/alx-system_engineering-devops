@@ -33,10 +33,7 @@ case "$argv1" in
         echo "manage_my_process restarted"
         ;;
     *)
-        echo "Usage: $0 {start|stop|restart}"
-        exit 1
+        echo "Usage: manage_my_process {start|stop|restart}"
         ;;
 esac
-
-exit 0
 
