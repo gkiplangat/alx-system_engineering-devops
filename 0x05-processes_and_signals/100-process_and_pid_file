@@ -1,0 +1,38 @@
+#!/usr/bin/env bash
+# This script displays a string infinitely with a 2-second delay between each iteration.
+# It creates a pid file in the var/ directory
+# It catches a SIGTERM signal and displays a text, deletes the created file then terminates itself.
+# It catches a SIGINT signal and displays a different text.
+
+PID_FILE="/var/run/myscript.pid"
+
+create_pid_file() {
+    echo "$$" > "$PID_FILE"
+}
+
+cleanup() {
+    echo "Cleaning up..."
+    rm "$PID_FILE"
+    exit
+}
+
+display_hate_message() {
+    echo "I hate the kill command"
+}
+
+display_no_love_message() {
+    echo "Y U no love me?!"
+}
+
+# Register signal handlers
+trap cleanup EXIT
+trap 'display_hate_message' SIGTERM
+trap 'display_no_love_message' SIGINT
+
+create_pid_file
+
+while true; do
+    echo "To infinity and beyond"
+    sleep 2
+done
+
