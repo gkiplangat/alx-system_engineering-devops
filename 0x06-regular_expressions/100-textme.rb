@@ -1,29 +1,36 @@
 #!/usr/bin/env ruby
 
-# Step 1: Accept the log file path as the argument from the command line
-log_file_path = ARGV[0]
+# The shebang line above tells the system to use Ruby to execute the script.
 
-# Step 2: Read the log file
-log_content = File.read(log_file_path)
+# Accept the argument from the command line
+input = ARGV[0]
 
-# Step 3: Define the regular expression to extract the required information
-# The regular expression looks for a pattern where:
-# [from:...] appears first, capturing the text inside the brackets as the sender.
-# [to:...] appears next, capturing the text inside the brackets as the receiver.
-# [flags:...] appears last, capturing the text inside the brackets as the flags.
+# The `ARGV` variable contains an array of command-line arguments.
+# Here, we're assigning the first argument (ARGV[0]) to the variable `input`.
+
+# Define the regular expression to match the pattern in the log file
 regex = /\[from:(.*?)\] \[to:(.*?)\] \[flags:(.*?)\]/
 
-# Step 4: Use the regular expression to find matches
-# The scan method returns an array of matches, where each match is represented as an array
-# containing three elements: sender, receiver, and flags.
-matches = log_content.scan(regex)
+# This regular expression captures three groups:
+# 1. Anything inside [from:...] captured in the first group (sender)
+# 2. Anything inside [to:...] captured in the second group (receiver)
+# 3. Anything inside [flags:...] captured in the third group (flags)
+# The `.*?` is a non-greedy match, which captures as little as possible.
 
-# Step 5: Format and print the matches
-# The join(",") method joins the matches together into a single string, separated by commas.
-matches.each do |match|
-  sender = match[0]
-  receiver = match[1]
-  flags = match[2]
-  puts "#{sender},#{receiver},#{flags}"
-end
+# Use the regular expression to find matches in the input string
+matches = input.scan(regex)
+
+# The `scan` method finds all occurrences of the regular expression in the input string.
+# It returns an array of arrays, where each sub-array contains the matched groups.
+
+# Join the matches into a single string
+# This part wasn't present in the original code, but I'll add it based on your example.
+# We want to join each match with a comma (,) and output it as a single string.
+formatted_matches = matches.map { |match| match.join(",") }
+
+# Print the formatted matches
+puts formatted_matches.join("\n")
+
+# This will print each formatted match on a new line.
+# The `join("\n")` method joins the array elements with a newline character (\n) as the separator.
 
