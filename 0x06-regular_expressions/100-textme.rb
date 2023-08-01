@@ -7,7 +7,7 @@ log_file_path = ARGV[0]
 log_content = File.read(log_file_path)
 
 # Define the regular expression to extract the required information
-regex = /\[from:(.*?)\] \[to:(.*?)\] \[flags:(.*?)\]/
+regex = (/\[from:(.*?)\] \[to:(.*?)\] \[flags:(.*?)\]/)
 
 # Use the regular expression to find matches
 matches = log_content.scan(regex)
