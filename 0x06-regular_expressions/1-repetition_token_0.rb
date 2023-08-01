@@ -4,7 +4,7 @@
 input = ARGV[0]
 
 # Define the regular expression to match the cases
-regex = /hb(t{2,5}n+)/
+regex = (/hbt{2,5}n/)
 
 # Use the regular expression to find matches
 matches = input.scan(regex)
