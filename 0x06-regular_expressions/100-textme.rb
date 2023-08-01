@@ -1,22 +1,29 @@
 #!/usr/bin/env ruby
 
-# Accept the log file path as the argument from the command line
+# Step 1: Accept the log file path as the argument from the command line
 log_file_path = ARGV[0]
 
-# Read the log file
+# Step 2: Read the log file
 log_content = File.read(log_file_path)
 
-# Define the regular expression to extract the required information
-regex = (/\[from:(.*?)\] \[to:(.*?)\] \[flags:(.*?)\]/)
+# Step 3: Define the regular expression to extract the required information
+# The regular expression looks for a pattern where:
+# [from:...] appears first, capturing the text inside the brackets as the sender.
+# [to:...] appears next, capturing the text inside the brackets as the receiver.
+# [flags:...] appears last, capturing the text inside the brackets as the flags.
+regex = /\[from:(.*?)\] \[to:(.*?)\] \[flags:(.*?)\]/
 
-# Use the regular expression to find matches
+# Step 4: Use the regular expression to find matches
+# The scan method returns an array of matches, where each match is represented as an array
+# containing three elements: sender, receiver, and flags.
 matches = log_content.scan(regex)
 
-# Format and print the matches
+# Step 5: Format and print the matches
+# The join(",") method joins the matches together into a single string, separated by commas.
 matches.each do |match|
   sender = match[0]
   receiver = match[1]
-  flags = match[2].gsub(":", ",")
+  flags = match[2]
   puts "#{sender},#{receiver},#{flags}"
 end
 
