@@ -1,24 +1,3 @@
 #!/usr/bin/env bash
-
-# Function to display an error message and exit
-show_error_and_exit() {
-    echo "Error: $1"
-    exit 1
-}
-
-# Check if the script is being run with superuser (root) privileges
-if [[ $(id -u) -ne 0 ]]; then
-    show_error_and_exit "This script must be run with superuser (root) privileges."
-fi
-
-# Command to get active IPv4 IPs using 'ip' command
-active_ips=$(ip -4 addr | grep -Eo "inet [0-9]+\.[0-9]+\.[0-9]+\.[0-9]+" | cut -d' ' -f2)
-
-# Check if any active IPv4 IPs were found
-if [[ -z $active_ips ]]; then
-    echo "No active IPv4 IPs found on this machine."
-else
-    echo "Active IPv4 IPs on this machine:"
-    echo "$active_ips"
-fi
-
+# Script that displays all active IPv4 IPs on the machine
+ifconfig | grep "inet addr:" | cut -d ':' -f 2- | cut -d ' ' -f 1
