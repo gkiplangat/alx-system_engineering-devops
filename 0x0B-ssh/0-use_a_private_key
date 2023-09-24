@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # SSH command with options
-ssh -i ~/.ssh/school ubuntu@100.25.191.27
 
+ssh -i ~/.ssh/school ubuntu@100.25.191.27
