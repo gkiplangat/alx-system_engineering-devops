@@ -1,14 +1,5 @@
 #!/usr/bin/env bash
 
-# Server IP address or hostname
-server_ip="100.25.191.27"
-
-# Private key file path
-private_key="~/.ssh/school"
-
 # SSH command with options
-ssh -i "$private_key" ubuntu@"$server_ip"
-
-# Exit the script
-exit
+ssh -i ~/.ssh/school ubuntu@100.25.191.27
 
