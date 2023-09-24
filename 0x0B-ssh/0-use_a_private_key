@@ -11,3 +11,4 @@ ssh -i "$private_key" ubuntu@"$server_ip"
 
 # Exit the script
 exit
+
