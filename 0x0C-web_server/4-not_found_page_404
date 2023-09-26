@@ -1,0 +1,31 @@
+#!/usr/bin/env bash
+# Bash script that configures an Nginx server to have custom 404 page with a custom text
+
+sudo apt-get -y update
+sudo apt-get -y install nginx
+
+# Create a custom index page
+echo "Hello World!" > /var/www/html/mine.html
+#     sudo cp /etc/nginx/sites-enabled/default /etc/nginx/sites-enabled/default.bak
+
+sudo bash -c 'cat <<EOL > /etc/nginx/sites-enabled/default
+server {
+    listen 80;
+    listen [::]:80 default_server;
+
+    root /var/www/html;
+    index mine.html index.html index.htm index.nginx-debian.html;
+
+    location /redirect_me {
+        return 301 https://www.github.com/gkiplangat;
+    }
+
+    error_page 404 /404.html;
+    location = /404.html {
+        root /var/www/html/;
+        internal;
+    }
+}
+EOL'
+
+sudo service nginx restart
