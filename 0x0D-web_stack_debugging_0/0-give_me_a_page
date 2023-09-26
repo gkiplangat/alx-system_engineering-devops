@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+"""
+docker error
+"""
+docker run -p 8080:80 -d -it holbertonschool/265-0
+docker exec -it <CONTAINER_ID> /bin/bash
+service apache2 status
+service apache2 start
+exit
+docker restart <CONTAINER_ID>
+
