@@ -8,7 +8,7 @@ if ! command -v ufw &> /dev/null; then
 fi
 
 # Enable ufw
-sudo ufw enable
+sudo ufw disable
 
 # Allow SSH (Port 22)
 sudo ufw allow 22/tcp
