@@ -42,3 +42,4 @@ if emp_id.isdigit():
         print(f"An error occurred: {err}")
     except json.JSONDecodeError as err:
         print(f"Error decoding JSON: {err}")
+        
