@@ -20,16 +20,16 @@ if emp_id.isdigit():
         user_url = f"{USER_API_URL}{emp_id}"
         todos_url = f"{TODO_API_URL}{emp_id}"
 
-        emp_response = urllib.request.urlopen(user_url)
-        todos_response = urllib.request.urlopen(todos_url)
+        emp_resp = urllib.request.urlopen(user_url)
+        todos_resp = urllib.request.urlopen(todos_url)
 
-        emp_data = emp_response.read()
-        todos_data = todos_response.read()
+        emp_data = emp_resp.read()
+        todos_data = todos_resp.read()
 
-        employee = json.loads(emp_data)
+        employee_data = json.loads(emp_data)
         todos = json.loads(todos_data)
 
-        name = employee.get("name")
+        name = employee_data.get("name")
         done = len([todo for todo in todos if todo.get("completed")])
         total = len(todos)
 
