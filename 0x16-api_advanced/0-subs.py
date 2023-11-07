@@ -21,4 +21,3 @@ def number_of_subscribers(subreddit) -> int:
         return data['data']['subscribers']
     except Exception:
         return 0
-    
